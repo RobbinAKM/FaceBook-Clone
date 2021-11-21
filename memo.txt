@@ -1,0 +1,15 @@
+-In Image if we use src="heeps://..." in images , we need to configure what kind of host domains are allowed in next.config
+-use tailwind and heroicons together
+
+
+-use .env.local for storing environment variables locally
+-need to restartr the server everytime you updated env
+- fetch them with process.env.ENVNAME_ENV
+
+-wrap the app component with provider in order to have a persistant login state (Just like redux)
+
+-use server side rendering for fetching login state
+-pass context in get session where context is the request from the user
+
+
+-in css layout="fill" is dangerous without having the parent element position relative
